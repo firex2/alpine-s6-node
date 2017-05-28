@@ -3,7 +3,7 @@ FROM firex2/alpine-s6
 # inspired by mhart https://github.com/mhart
 MAINTAINER Fire
 
-ENV VERSION=v4.7.3 NPM_VERSION=2
+ENV VERSION=v4.8.3 NPM_VERSION=2
 #ENV VERSION=v6.9.5 NPM_VERSION=3
 #ENV VERSION=v7.5.0 NPM_VERSION=4
 
