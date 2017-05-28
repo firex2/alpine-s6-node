@@ -4,7 +4,7 @@ FROM firex2/alpine-s6
 MAINTAINER Fire
 
 #ENV VERSION=v4.7.3 NPM_VERSION=2
-ENV VERSION=v6.9.5 NPM_VERSION=3
+ENV VERSION=v6.10.3 NPM_VERSION=3
 #ENV VERSION=v7.5.0 NPM_VERSION=4
 
 RUN apk add --no-cache curl make gcc g++ python linux-headers binutils-gold gnupg libstdc++ && \
