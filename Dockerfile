@@ -3,9 +3,7 @@ FROM firex2/alpine-s6
 # inspired by mhart https://github.com/mhart
 MAINTAINER Fire
 
-#ENV VERSION=v4.7.3 NPM_VERSION=2
-#ENV VERSION=v6.9.5 NPM_VERSION=3
-ENV VERSION=v7.10.0 NPM_VERSION=4
+ENV VERSION=v8.0.0 NPM_VERSION=5
 
 RUN apk add --no-cache curl make gcc g++ python linux-headers binutils-gold gnupg libstdc++ && \
   curl -sSLO https://nodejs.org/dist/${VERSION}/node-${VERSION}.tar.xz && \
